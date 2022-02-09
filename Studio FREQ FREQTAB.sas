@@ -26,11 +26,6 @@ proc freq data=STAT1.safety;
     title "SAS 9 : Association between Unsafe and Size";
 run;
 
-proc freqtab data=stat1.safety;
-    tables Size*Unsafe / chisq measures cl;
-    title "SAS CAS : Association between Unsafe and Size";
-run;
-
 data casuser.safety;
 set STAT1.safety;
 run; 
