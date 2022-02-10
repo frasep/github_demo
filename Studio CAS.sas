@@ -1,4 +1,4 @@
-cas mySession sessopts=(caslib=casuser timeout=1800 locale="en_US");
+cas mySession sessopts=(caslib=casuser timeout=1800 locale="en_US" metrics="true");
 caslib _all_ assign;
 options casdatalimit=ALL;
 
