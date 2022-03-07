@@ -1,3 +1,5 @@
+/* Github ou gitlab */
+
 libname stat1 "/data/data";
 
 /*st103d01.sas*/  /*Part A*/
