@@ -1,6 +1,10 @@
+<<<<<<< Local
 /* Github ou gitlab */
 
 libname stat1 "/data/data";
+=======
+libname stat1 "/home/viyademo01/github_demo";
+>>>>>>> Remote
 
 /*st103d01.sas*/  /*Part A*/
 ods graphics off;
